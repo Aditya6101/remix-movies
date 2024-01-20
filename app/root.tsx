@@ -22,7 +22,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="min-h-screen grid place-content-center">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
